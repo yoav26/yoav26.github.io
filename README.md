@@ -1,6 +1,4 @@
-# Yoav Orchen - Motion Control Engineer Portfolio
-
-A professional, academic-style portfolio website showcasing expertise in motion control systems, robotics, and complex electro-mechanical systems.
+# Yoav Orchen
 
 ## 🎯 About Yoav Orchen
 
@@ -12,8 +10,6 @@ A professional, academic-style portfolio website showcasing expertise in motion 
 
 ## 🚀 Features
 
-- **Academic Paper Design**: Clean, formal layout inspired by academic publications
-- **Professional Presentation**: Focused on technical expertise and project showcase
 - **Responsive Design**: Optimized for all devices and screen sizes
 - **Interactive Elements**: Smooth navigation and professional animations
 - **SEO Optimized**: Proper meta tags and structured content
@@ -36,14 +32,6 @@ yoav26.github.io/
 └── README.md           # Project documentation
 ```
 
-## 🎨 Design Philosophy
-
-- **Academic Aesthetic**: Times New Roman serif font for formal appearance
-- **Professional Color Scheme**: Neutral grays and blacks for academic professionalism
-- **Paper-like Layout**: Formal margins and spacing with clean typography
-- **Content Focus**: Emphasis on expertise areas and technical projects
-- **Responsive Design**: Maintains academic aesthetic across all devices
-
 ## 📱 Responsive Design
 
 - **Large Screens (1200px+)**: 1400px max-width with full academic layout
@@ -51,12 +39,6 @@ yoav26.github.io/
 - **Tablet Screens (480px-768px)**: 98% width with single-column layout
 - **Mobile Screens (<480px)**: Full width with mobile-optimized navigation
 
-## 🚀 Getting Started
-
-1. **Clone or download** the repository
-2. **Open `index.html`** in your web browser
-3. **Navigate through sections** using the formal navigation menu
-4. **Explore expertise areas** and project showcases
 
 ## 🔧 Customization Guide
 
