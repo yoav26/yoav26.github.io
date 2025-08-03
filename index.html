@@ -3,35 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoav's Website</title>
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; color: #333; }
-        h1 { color: #0056b3; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        ul { list-style: none; padding: 0; }
-        li a { text-decoration: none; color: #007bff; }
-        li a:hover { text-decoration: underline; }
-    </style>
+    <meta name="description" content="Yoav Orchen - Personal Portfolio and Projects">
+    <meta name="keywords" content="Yoav Orchen, portfolio, projects, developer">
+    <meta name="author" content="Yoav Orchen">
+    <title>Yoav Orchen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>Hello, I'm Yoav Orchen</h1>
-        <p>Welcome to my personal corner of the internet. I'm a passionate [] interested in [].</p>
+        <!-- Navigation -->
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="about.html">More About Me</a>
+        </nav>
 
-        <h2>My Projects</h2>
-        <ul>
-            <li><a href="https://github.com/yoav26/motion-control.git" target="_blank">Project One: Awesome Package</a></li>
-            <li><a href="#" target="_blank">Project Two: Cool Tool</a> (Link will go here)</li>
-            <li><a href="#" target="_blank">Project Three: Creative Design</a> (Link will go here)</li>
-        </ul>
+        <!-- Hero Section -->
+        <section id="about">
+            <h1>Hello, I'm Yoav Orchen</h1>
+            <p>Welcome to my personal portfolio! I'm a passionate software developer and technology enthusiast with a keen interest in creating innovative solutions and exploring cutting-edge technologies.</p>
+            <p>I specialize in developing efficient, scalable applications and enjoy tackling complex problems with creative solutions. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+        </section>
 
-        <h2>Connect With Me</h2>
-        <p>You can find me on:</p>
-        <ul>
-            <li><a href="https://github.com/yoav6" target="_blank">GitHub</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a> (Add your LinkedIn URL)</li>
-            <li><a href="about.html">Learn more about me</a></li>
-        </ul>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Django</li>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Cloud</h3>
+                    <ul class="skill-list">
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>AWS</li>
+                        <li>Firebase</li>
+                        <li>Redis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <ul class="skill-list">
+                        <li>RESTful APIs</li>
+                        <li>Agile Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Testing & Debugging</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-title">Motion Control System</div>
+                    <div class="project-description">
+                        An innovative motion control package that provides precise control over various motion systems. 
+                        Features real-time monitoring, customizable control algorithms, and comprehensive documentation.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Control Systems</span>
+                        <span class="tech-tag">Real-time Processing</span>
+                    </div>
+                    <a href="https://github.com/yoav26/motion-control.git" target="_blank">View Project →</a>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-title">Web Development Toolkit</div>
+                    <div class="project-description">
+                        A comprehensive toolkit for modern web development including build tools, 
+                        component libraries, and development utilities.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Webpack</span>
+                    </div>
+                    <a href="#" target="_blank">Coming Soon →</a>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-title">Data Analytics Platform</div>
+                    <div class="project-description">
+                        A powerful data analytics platform with interactive visualizations, 
+                        real-time data processing, and advanced reporting capabilities.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">D3.js</span>
+                    </div>
+                    <a href="#" target="_blank">In Development →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in new opportunities, collaborations, or just a friendly chat about technology. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="https://github.com/yoav6" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="mailto:yoav@example.com">Email</a>
+                <a href="about.html">Learn More</a>
+            </div>
+        </section>
     </div>
 </body>
 </html>
