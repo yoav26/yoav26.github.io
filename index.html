@@ -3,135 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yoav Orchen - Personal Portfolio and Projects">
-    <meta name="keywords" content="Yoav Orchen, portfolio, projects, developer">
+    <meta name="description" content="Yoav Orchen - Academic Portfolio and Research">
+    <meta name="keywords" content="Yoav Orchen, portfolio, research, projects">
     <meta name="author" content="Yoav Orchen">
-    <title>Yoav Orchen - Portfolio</title>
+    <title>Yoav Orchen - Academic Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
+        <!-- Paper Header -->
+        <div class="paper-header">
+            <h1>Yoav Orchen</h1>
+            <div class="author-info">
+                Software Developer & Technology Researcher<br>
+                Email: yoav@example.com | GitHub: <a href="https://github.com/yoav6" target="_blank">github.com/yoav6</a>
+            </div>
+        </div>
+
         <!-- Navigation -->
         <nav class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#abstract">Abstract</a>
+            <a href="#research">Research Areas</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="about.html">More About Me</a>
+            <a href="#publications">Publications</a>
+            <a href="about.html">About</a>
         </nav>
 
-        <!-- Hero Section -->
-        <section id="about">
-            <h1>Hello, I'm Yoav Orchen</h1>
-            <p>Welcome to my personal portfolio! I'm a passionate software developer and technology enthusiast with a keen interest in creating innovative solutions and exploring cutting-edge technologies.</p>
-            <p>I specialize in developing efficient, scalable applications and enjoy tackling complex problems with creative solutions. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+        <!-- Abstract -->
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <div class="abstract">
+                This portfolio presents my work in software development and technology research, focusing on motion control systems, web development, and data analytics. My research interests include real-time processing, scalable architectures, and innovative software solutions.
+            </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Technical Skills</h2>
+        <!-- Research Areas -->
+        <section id="research">
+            <h2>Research Areas</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Programming Languages</h3>
+                    <h3>Software Engineering</h3>
                     <ul class="skill-list">
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>C++</li>
-                        <li>HTML/CSS</li>
+                        <li>Motion Control Systems</li>
+                        <li>Web Development</li>
+                        <li>Data Analytics</li>
+                        <li>Real-time Processing</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Frameworks & Tools</h3>
+                    <h3>Technologies</h3>
                     <ul class="skill-list">
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                        <li>Django</li>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Databases & Cloud</h3>
-                    <ul class="skill-list">
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                        <li>AWS</li>
-                        <li>Firebase</li>
-                        <li>Redis</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Other Skills</h3>
-                    <ul class="skill-list">
-                        <li>RESTful APIs</li>
-                        <li>Agile Development</li>
-                        <li>UI/UX Design</li>
-                        <li>Testing & Debugging</li>
-                        <li>Performance Optimization</li>
+                        <li>Python, JavaScript, Java</li>
+                        <li>React, Django, Node.js</li>
+                        <li>PostgreSQL, MongoDB</li>
+                        <li>AWS, Docker, Git</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <div class="section-divider"></div>
+
+        <!-- Projects -->
         <section id="projects">
-            <h2>Featured Projects</h2>
+            <h2>Selected Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
                     <div class="project-title">Motion Control System</div>
                     <div class="project-description">
-                        An innovative motion control package that provides precise control over various motion systems. 
-                        Features real-time monitoring, customizable control algorithms, and comprehensive documentation.
+                        Development of a precision motion control package for real-time applications. The system provides customizable control algorithms and comprehensive monitoring capabilities.
                     </div>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Control Systems</span>
-                        <span class="tech-tag">Real-time Processing</span>
+                        <span class="tech-tag">Real-time</span>
                     </div>
-                    <a href="https://github.com/yoav26/motion-control.git" target="_blank">View Project →</a>
+                    <a href="https://github.com/yoav26/motion-control.git" target="_blank">Repository</a>
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-title">Web Development Toolkit</div>
+                    <div class="project-title">Web Development Framework</div>
                     <div class="project-description">
-                        A comprehensive toolkit for modern web development including build tools, 
-                        component libraries, and development utilities.
+                        A modular web development toolkit designed for rapid application development with modern build tools and component libraries.
                     </div>
                     <div class="project-tech">
                         <span class="tech-tag">JavaScript</span>
                         <span class="tech-tag">React</span>
                         <span class="tech-tag">Webpack</span>
                     </div>
-                    <a href="#" target="_blank">Coming Soon →</a>
+                    <a href="#" target="_blank">In Development</a>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-title">Data Analytics Platform</div>
                     <div class="project-description">
-                        A powerful data analytics platform with interactive visualizations, 
-                        real-time data processing, and advanced reporting capabilities.
+                        Interactive data visualization platform with real-time processing capabilities and advanced reporting features.
                     </div>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Django</span>
                         <span class="tech-tag">D3.js</span>
                     </div>
-                    <a href="#" target="_blank">In Development →</a>
+                    <a href="#" target="_blank">Research Phase</a>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Get In Touch</h2>
-            <p>I'm always interested in new opportunities, collaborations, or just a friendly chat about technology. Feel free to reach out!</p>
+        <div class="section-divider"></div>
+
+        <!-- Publications -->
+        <section id="publications">
+            <h2>Publications & Contributions</h2>
+            <ul>
+                <li><strong>Motion Control Package</strong> - Open-source contribution to precision control systems</li>
+                <li><strong>Web Development Research</strong> - Ongoing work on modern development frameworks</li>
+                <li><strong>Data Analytics</strong> - Research in real-time data processing and visualization</li>
+            </ul>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Contact -->
+        <section>
+            <h2>Contact Information</h2>
             <div class="contact-links">
                 <a href="https://github.com/yoav6" target="_blank">GitHub</a>
-                <a href="#" target="_blank">LinkedIn</a>
                 <a href="mailto:yoav@example.com">Email</a>
-                <a href="about.html">Learn More</a>
+                <a href="about.html">Detailed Biography</a>
             </div>
         </section>
     </div>
