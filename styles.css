@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 40px auto;
     background: #fff;
     padding: 60px;
@@ -168,9 +168,10 @@ li a:hover {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     margin: 20px 0;
+    justify-items: center;
 }
 
 .skill-category {
@@ -178,6 +179,10 @@ li a:hover {
     border: 1px solid #e0e0e0;
     border-radius: 0;
     padding: 20px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .skill-category h3 {
@@ -189,12 +194,17 @@ li a:hover {
 
 .skill-list {
     list-style: none;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .skill-list li {
     padding: 3px 0;
     color: #555;
     font-size: 0.95rem;
+    margin-bottom: 8px;
 }
 
 .skill-list li:before {
@@ -263,9 +273,18 @@ li a:hover {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 40px;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
-        margin: 20px;
+        max-width: 98%;
+        margin: 20px auto;
         padding: 30px;
     }
     
@@ -275,6 +294,12 @@ li a:hover {
     
     .skills-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .skill-category {
+        max-width: none;
+        min-height: auto;
     }
     
     .nav-links {
@@ -286,6 +311,22 @@ li a:hover {
     .contact-links {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    .nav-links {
+        gap: 8px;
     }
 }
 

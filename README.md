@@ -1,110 +1,116 @@
-# Yoav Orchen - Academic Portfolio
+# Yoav Orchen - Motion Control Engineer Portfolio
 
-A concise, academic-style portfolio website presenting research work and technical projects in a formal, paper-like format.
+A professional, academic-style portfolio website showcasing expertise in motion control systems, robotics, and complex electro-mechanical systems.
 
-## 🎯 Design Philosophy
+## 🎯 About Yoav Orchen
 
-- **Academic Paper Aesthetic**: Clean, formal design inspired by academic publications
-- **Concise Content**: Focused presentation without excessive detail
-- **Professional Typography**: Serif fonts and academic color scheme
-- **Research-Oriented**: Emphasis on research areas and academic contributions
+**Motion Control Engineer & Robotics Specialist**
+
+- **Master's Degree**: Robotics and Control
+- **Bachelor's Degree**: Mechanical Engineering
+- **Expertise**: Complex electro-mechanical systems, motion control, and robotics
 
 ## 🚀 Features
 
-- **Academic Layout**: Paper-like design with formal typography and spacing
-- **Research Focus**: Structured presentation of research areas and projects
-- **Concise Navigation**: Streamlined sections for easy navigation
-- **Professional Appearance**: Formal styling suitable for academic contexts
-- **Responsive Design**: Maintains academic aesthetic across all devices
+- **Academic Paper Design**: Clean, formal layout inspired by academic publications
+- **Professional Presentation**: Focused on technical expertise and project showcase
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Interactive Elements**: Smooth navigation and professional animations
+- **SEO Optimized**: Proper meta tags and structured content
 
-## 🛠️ Technical Implementation
+## 🛠️ Technical Stack
 
 - **HTML5**: Semantic structure with academic sectioning
-- **CSS3**: Academic typography and formal styling
+- **CSS3**: Academic typography and formal styling with responsive design
 - **JavaScript**: Subtle interactions maintaining professional appearance
-- **Responsive Design**: Academic layout adapted for mobile devices
+- **Responsive Grid**: 3-column expertise layout that adapts to screen size
 
 ## 📁 Project Structure
 
 ```
 yoav26.github.io/
-├── index.html          # Main academic portfolio
-├── about.html          # Academic background and research focus
-├── styles.css          # Academic styling and typography
-├── script.js           # Minimal interactive functionality
+├── index.html          # Main portfolio page
+├── about.html          # Professional background and expertise
+├── styles.css          # Academic styling and responsive design
+├── script.js           # Interactive functionality
 └── README.md           # Project documentation
 ```
 
-## 🎨 Academic Design Elements
+## 🎨 Design Philosophy
 
-- **Typography**: Times New Roman serif font for formal appearance
-- **Color Scheme**: Neutral grays and blacks for academic professionalism
-- **Layout**: Paper-like container with formal margins and spacing
-- **Navigation**: Subtle, academic-style navigation elements
-- **Content Structure**: Abstract, research areas, projects, publications format
+- **Academic Aesthetic**: Times New Roman serif font for formal appearance
+- **Professional Color Scheme**: Neutral grays and blacks for academic professionalism
+- **Paper-like Layout**: Formal margins and spacing with clean typography
+- **Content Focus**: Emphasis on expertise areas and technical projects
+- **Responsive Design**: Maintains academic aesthetic across all devices
 
-## 📱 Responsive Academic Design
+## 📱 Responsive Design
 
-- **Desktop**: Full academic paper layout with proper margins
-- **Tablet**: Adjusted spacing while maintaining formal appearance
-- **Mobile**: Single column layout preserving academic structure
+- **Large Screens (1200px+)**: 1400px max-width with full academic layout
+- **Medium Screens (768px-1200px)**: 95% width with optimized spacing
+- **Tablet Screens (480px-768px)**: 98% width with single-column layout
+- **Mobile Screens (<480px)**: Full width with mobile-optimized navigation
 
-## 🚀 Usage
+## 🚀 Getting Started
 
-1. Open `index.html` in a web browser
-2. Navigate through academic sections using the formal navigation
-3. Review research areas and project presentations
-4. Access detailed academic background via the About page
+1. **Clone or download** the repository
+2. **Open `index.html`** in your web browser
+3. **Navigate through sections** using the formal navigation menu
+4. **Explore expertise areas** and project showcases
 
-## 📝 Content Customization
+## 🔧 Customization Guide
 
-### Updating Research Areas
-Modify the research sections in `index.html`:
+### **Updating Personal Information**
+Edit the placeholder content in both HTML files:
+- Replace `[Your professional summary will go here]` with your actual summary
+- Update project descriptions and technologies
+- Add your real contact information
+
+### **Modifying Expertise Areas**
+Update the skill categories in `index.html`:
 ```html
 <div class="skill-category">
-    <h3>Research Area Name</h3>
+    <h3>Your Expertise Area</h3>
     <ul class="skill-list">
-        <li>Research focus 1</li>
-        <li>Research focus 2</li>
+        <li>Specific skill 1</li>
+        <li>Specific skill 2</li>
     </ul>
 </div>
 ```
 
-### Adding Academic Projects
+### **Adding Projects**
 Edit project cards in `index.html`:
 ```html
 <div class="project-card">
-    <div class="project-title">Research Project Title</div>
-    <div class="project-description">Academic description of research work</div>
+    <div class="project-title">Your Project Name</div>
+    <div class="project-description">Project description</div>
     <div class="project-tech">
         <span class="tech-tag">Technology</span>
     </div>
-    <a href="project-url">Research Repository</a>
+    <a href="project-url">Repository</a>
 </div>
 ```
 
-### Modifying Academic Content
-Update the abstract and research descriptions to reflect your specific academic focus and contributions.
+## 🔧 Browser Support
 
-## 🔧 Browser Compatibility
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+## 🚀 Deployment
 
-## 📄 Academic Context
+The website is ready for deployment to:
+- **GitHub Pages** (recommended for `.github.io` domains)
+- **Any web hosting service**
+- **Local hosting** for presentations
 
-This portfolio is designed for:
-- Academic presentations
-- Research collaborations
-- Professional networking in academic circles
-- Formal project showcases
+## 🤝 Contact
 
-## 🤝 Academic Collaboration
-
-For research collaborations, academic discussions, or technical inquiries, please refer to the contact information provided in the portfolio.
+- **GitHub**: [github.com/yoav6](https://github.com/yoav6)
+- **Email**: yoav@example.com
+- **Portfolio**: [yoav26.github.io](https://yoav26.github.io)
 
 ---
 
-**Academic Contact**: [GitHub](https://github.com/yoav6) | [Email](mailto:yoav@example.com)
+**Status**: ✅ **Ready for Professional Use**
